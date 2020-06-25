@@ -57,6 +57,7 @@ Temporary Items
 # End of https://www.toptal.com/developers/gitignore/api/macos,java
 
 # 忽略on java 8 实例代码
+OnJava8/OnJava8_Examples_master/
 OnJava8-Examples-master/
 # 忽略jdk文档
 docs/
