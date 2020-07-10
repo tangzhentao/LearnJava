@@ -2,7 +2,7 @@
 package interfaces.filters;
 
 // 高通滤波
-class HightPass extends Filter {
+public class HightPass extends Filter {
     double cutoff; // 界限
 
     public HightPass(double cutoff) {

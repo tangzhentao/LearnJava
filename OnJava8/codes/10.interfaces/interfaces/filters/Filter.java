@@ -4,7 +4,7 @@ package interfaces.filters;
 public class Filter {
     
     public String name() {
-        reutrn getClass().getSimpleClass();
+        return getClass().getSimpleName();
     }
 
     public Waveform process(Waveform input) {

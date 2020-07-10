@@ -2,11 +2,11 @@
 package interfaces.filters;
 
 public class Waveform {
-    private static long conter;
+    private static long counter;
     private final long id = counter++;
 
     @Override 
-    String toString () {
+    public String toString () {
         return "Waveform " + id;
     }
 }

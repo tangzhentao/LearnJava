@@ -1,6 +1,8 @@
 
+package interfaces.filters;
+
 // 低筒滤波
-class LowPass extends Filter {
+public class LowPass extends Filter {
     double cutoff; // 界限
 
     public LowPass(double cutoff) {

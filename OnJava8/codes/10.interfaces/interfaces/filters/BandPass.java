@@ -5,7 +5,7 @@
 package interfaces.filters;
 
 // 带通滤波
-class BandPass extends Filter {
+public class BandPass extends Filter {
     double lowCutoff, hightCutoff; // 界限
 
     public BandPass(double lowCutoff, double hightCutoff) {
